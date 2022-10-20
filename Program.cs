@@ -7,6 +7,7 @@ namespace Task_After_Week1
         static void Main(string[] args)
         {
            Console.WriteLine(SuperBirthday.myBirthdayTeller());
+           Console.ReadKey();
         }
     }
 }
