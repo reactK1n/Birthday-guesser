@@ -14,9 +14,9 @@ namespace Task_After_Week1
 
                 Console.Write("How old are you? ");
                 int age = int.Parse(Console.ReadLine());
-                Console.Write("if there is an additional Month, pls put it down else just type 0 ? ");
+                Console.Write("if there is an additional Month, please put it down else just type 0 ? ");
                 int month = int.Parse(Console.ReadLine());
-                Console.Write("if there is an additional day, pls put it down else just type 0 ? ");
+                Console.Write("if there is an additional day, please put it down else just type 0 ? ");
                 int date = int.Parse(Console.ReadLine());
 
                 myDetails Details = new myDetails(age, month, date);
