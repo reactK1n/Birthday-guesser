@@ -1,0 +1,16 @@
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\bin\Debug\net5.0\Task_After_Week1.exe
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\bin\Debug\net5.0\Task_After_Week1.deps.json
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\bin\Debug\net5.0\Task_After_Week1.runtimeconfig.json
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\bin\Debug\net5.0\Task_After_Week1.runtimeconfig.dev.json
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\bin\Debug\net5.0\Task_After_Week1.dll
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\bin\Debug\net5.0\ref\Task_After_Week1.dll
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\bin\Debug\net5.0\Task_After_Week1.pdb
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\obj\Debug\net5.0\Task_After_Week1.csproj.AssemblyReference.cache
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\obj\Debug\net5.0\Task_After_Week1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\obj\Debug\net5.0\Task_After_Week1.AssemblyInfoInputs.cache
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\obj\Debug\net5.0\Task_After_Week1.AssemblyInfo.cs
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\obj\Debug\net5.0\Task_After_Week1.csproj.CoreCompileInputs.cache
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\obj\Debug\net5.0\Task_After_Week1.dll
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\obj\Debug\net5.0\ref\Task_After_Week1.dll
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\obj\Debug\net5.0\Task_After_Week1.pdb
+C:\Users\reactKin\Desktop\C# learning area\Task_After_Week1\obj\Debug\net5.0\Task_After_Week1.genruntimeconfig.cache
