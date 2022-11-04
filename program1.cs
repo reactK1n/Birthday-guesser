@@ -2,51 +2,53 @@ using System;
 
 namespace Task_After_Week1
 {
-    public class SuperBirthday
+    public class UserInput
     {
-        public static  string myBirthdayTeller()
+        public static string InputInfo()
         {
-            return myBirthdayDate();
-        }
-
-        private static string myBirthdayDate()
-        {
-
                 Console.Write("How old are you? ");
                 int age = int.Parse(Console.ReadLine());
                 Console.Write("if there is an additional Month, please put it down else just type 0 ? ");
                 int month = int.Parse(Console.ReadLine());
                 Console.Write("if there is an additional day, please put it down else just type 0 ? ");
-                int date = int.Parse(Console.ReadLine());
+                int day = int.Parse(Console.ReadLine());
 
-                myDetails Details = new myDetails(age, month, date);
+                return SuperBirthday.MyBirthdayDate(age, month, day);
+        } 
+    }
+    
+    public class SuperBirthday
+    {
+        public static string MyBirthdayDate(int getAge, int getMonth, int getDay)
+        {
+                MyDetails details = new MyDetails(getAge, getMonth, getDay);
                 DateTime myBirthday = DateTime.Now;
-                int _age = myBirthday.Year - Details.Age;
-                int _month = myBirthday.Month - Details.Month;
-                var _day = myBirthday.Day - Details.Date;
-                if (_month < 1)
+                int age = myBirthday.Year - details.Age;
+                int month = myBirthday.Month - details.Month;
+                var day = myBirthday.Day - details.Day;
+                if (month < 1)
                 {
-                    _month = 12 + _month; 
-                    _age = _age - 1;  
+                    month = 12 + month; 
+                    age = age - 1;  
                   
                 }
             
-                DateTime myBirthdayy = new DateTime(_age, _month, _day);
+                DateTime myBirthdayy = new DateTime(age, month, day);
                 return ($"Your Birthday is {myBirthdayy.ToLongDateString()}") ;        
         }
     }
     
-    public class myDetails
+    public class MyDetails
     {
         public int Age{get; set;}
         public int Month{get; set;}
-        public int Date{get; set;}
+        public int Day{get; set;}
 
-        public myDetails( int age, int month, int date)
+        public MyDetails( int age, int month, int day)
         {
             Age = age;
             Month = month;
-            Date = date;
+            Day = day;
         }
     }
 }
